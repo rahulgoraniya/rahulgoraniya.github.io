@@ -29,8 +29,3 @@ latest_posts:
 I am undergraduate student in <a href='https://www.birmingham.ac.uk/schools/computer-science'>Computer Science</a> at <a href='https://www.birmingham.ac.uk/'> the University of Birmingham</a>, I am interested in Theoretical Computer Science.
 For my final year project, I worked with <a href='https://rajeshchitnis.github.io/'>Dr. Rajesh Chitnis</a>. The title for my research project is "ETH-based Hardness for Approximation via L-Reductions from Matrix Tiling with ≤" which can be viewed <a href="/assets/pdf/project.pdf">here</a>.
 I am currently looking for PhD opportunity.
-# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-# Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-# Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
