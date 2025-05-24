@@ -26,6 +26,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am undergraduate student in <a href='https://www.birmingham.ac.uk/schools/computer-science'>Computer Science</a> at <a href='https://www.birmingham.ac.uk/'> the University of Birmingham</a>, I am interested in Theoretical Computer Science.
+I am undergraduate student in <a href='https://www.birmingham.ac.uk/schools/computer-science'>Computer Science</a> at the <a href='https://www.birmingham.ac.uk/'>University of Birmingham</a>, I am interested in Theoretical Computer Science.
+
 For my final year project, I worked with <a href='https://rajeshchitnis.github.io/'>Dr. Rajesh Chitnis</a>. The title for my research project is "ETH-based Hardness for Approximation via L-Reductions from Matrix Tiling with ≤" which can be viewed <a href="/assets/pdf/project.pdf">here</a>.
+
+My CV can be found <a href="/assets/pdf/cv.pdf">here</a>.
+
 I am currently looking for PhD opportunity.
