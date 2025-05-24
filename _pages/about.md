@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: Undergraduate student in <a href='https://www.birmingham.ac.uk/schools/computer-science'>Computer Science</a> at <a href='https://www.birmingham.ac.uk/'> the University of Birmingham</a> # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
