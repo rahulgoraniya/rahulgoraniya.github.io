@@ -38,6 +38,13 @@ body.sticky-bottom-footer {
   }
 }
 
+/* Override to make profile image smaller */
+.profile img {
+  width: 150px !important;
+  height: auto !important;
+  max-width: 100%;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
