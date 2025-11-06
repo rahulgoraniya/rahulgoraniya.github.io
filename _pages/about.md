@@ -26,14 +26,18 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am undergraduate student in <a href='https://www.birmingham.ac.uk/schools/computer-science'>Computer Science</a> at the <a href='https://www.birmingham.ac.uk/'>University of Birmingham</a>, I am interested in Theoretical Computer Science.
 
-For my final year project, I worked with <a href='https://rajeshchitnis.github.io/'>Dr. Rajesh Chitnis</a>. The title for my research project is "ETH-based Hardness for Approximation via L-Reductions from Matrix Tiling with ≤" which can be viewed <a href="/assets/pdf/project.pdf">here</a>.
+I am a Computer Science graduate with interests in algorithms and complexity, logic, formal languages, and theoretical computer science more generally. I completed a B.Sc. at the <a href="https://www.birmingham.ac.uk/">University of Birmingham</a>.
 
-My CV can be found <a href="/assets/pdf/cv.pdf">here</a>.
+For my final-year project, I worked with <a href="https://rajeshchitnis.github.io/">Dr. Rajesh Chitnis</a> on <a href="/assets/pdf/project.pdf"><strong>ETH-based hardness for approximation via L-reductions from Matrix Tiling with &le;</strong></a>. The thesis was ranked <strong>Top&nbsp;5% of my cohort</strong>.
 
-My transcript can be found <a href="/assets/pdf/transcript.pdf">here</a>.
+### Documents
+- <a href="/assets/pdf/cv.pdf">CV (PDF)</a>  
+- <a href="/assets/pdf/transcript.pdf">Transcript (PDF)</a>  
 
-The working draft of my paper "Tight lower bound for Coveing Points with Squares" which is to be submitted to the SoCG can be found <a href="/assets/pdf/transcript.pdf">here</a>.
+### Projects & drafts
+- **PTAS lower bounds for geometric covering.** Established a PTAS lower bound via L-reductions from Matrix Tiling with &le;; applied to **Covering Points with Squares**, yielding a tight lower bound.  
+  <a href="/assets/pdf/covering-squares-draft.pdf">Working draft (PDF)</a>
+
 
 I am currently looking for PhD opportunity.
