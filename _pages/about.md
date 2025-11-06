@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  image_size: 150px
+  image_size: 100px
   more_info: >
     <p></p>
     <p></p>
