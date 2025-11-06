@@ -7,7 +7,7 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p></p>
     <p></p>
@@ -37,7 +37,7 @@ For my final-year project, I worked with <a href="https://rajeshchitnis.github.i
 - <a href="/assets/pdf/final-year.pdf">Final-year project report (PDF)</a>
 
 ### Projects & drafts
-- **Covering Points with Squares (PTAS lower bound).** Extends my Final-year project lower bound for **Matrix Tiling with &le;** to obtain a tight ETH-based PTAS lower bound for **Covering Points with Squares**.  
+- **Tight PTAS lower bound for Covering Points with Squares.** Extends my Final-year project lower bound for **Matrix Tiling with &le;** to obtain a tight ETH-based PTAS lower bound for **Covering Points with Squares**.  
   <a href="/assets/pdf/covering-squares-draft.pdf">Working draft (PDF)</a>
 
 
