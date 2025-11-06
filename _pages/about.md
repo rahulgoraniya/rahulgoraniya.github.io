@@ -7,7 +7,7 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p></p>
     <p></p>
@@ -29,14 +29,15 @@ latest_posts:
 
 I am a Computer Science graduate with interests in algorithms and complexity, logic, formal languages, and theoretical computer science more generally. I completed a B.Sc. at the <a href="https://www.birmingham.ac.uk/">University of Birmingham</a>.
 
-For my final-year project, I worked with <a href="https://rajeshchitnis.github.io/">Dr. Rajesh Chitnis</a> on <a href="/assets/pdf/project.pdf"><strong>ETH-based hardness for approximation via L-reductions from Matrix Tiling with &le;</strong></a>. The thesis was ranked <strong>Top&nbsp;5% of my cohort</strong>.
+For my final-year project, I worked with <a href="https://rajeshchitnis.github.io/">Dr. Rajesh Chitnis</a> on <strong>ETH-based hardness for approximation via L-reductions from Matrix Tiling with &le;</strong>. The thesis was ranked <strong>Top&nbsp;5% of my cohort</strong>.
 
 ### Documents
 - <a href="/assets/pdf/cv.pdf">CV (PDF)</a>  
-- <a href="/assets/pdf/transcript.pdf">Transcript (PDF)</a>  
+- <a href="/assets/pdf/transcript.pdf">Transcript (PDF)</a>
+- <a href="/assets/pdf/final-year.pdf">Final-year project report (PDF)</a>
 
 ### Projects & drafts
-- **PTAS lower bounds for geometric covering.** Established a PTAS lower bound via L-reductions from Matrix Tiling with &le;; applied to **Covering Points with Squares**, yielding a tight lower bound.  
+- **Covering Points with Squares (PTAS lower bound).** Extends my Final-year project lower bound for **Matrix Tiling with &le;** to obtain a tight ETH-based PTAS lower bound for **Covering Points with Squares**.  
   <a href="/assets/pdf/covering-squares-draft.pdf">Working draft (PDF)</a>
 
 
