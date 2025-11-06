@@ -32,4 +32,8 @@ For my final year project, I worked with <a href='https://rajeshchitnis.github.i
 
 My CV can be found <a href="/assets/pdf/cv.pdf">here</a>.
 
+My transcript can be found <a href="/assets/pdf/transcript.pdf">here</a>.
+
+The working draft of my paper "Tight lower bound for Coveing Points with Squares" which is to be submitted to the SoCG can be found <a href="/assets/pdf/transcript.pdf">here</a>.
+
 I am currently looking for PhD opportunity.
