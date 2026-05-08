@@ -1,0 +1,306 @@
+/* Default dark mode */
+
+:root {
+  /* --bg-start: #0b0f1a;
+  --bg-end: #0d1b2a; */
+
+  --text-main: #d6dbe1;
+  --text-heading: #e6edf3;
+
+  --link: #8ab4ff;
+
+  --border: #2a3441;
+
+  --subtle: #9aa6b2;
+}
+
+/* Light mode overrides */
+
+body.light-mode {
+  background-color: #f5f7fb;
+
+  /* --bg-start: #f5f7fb;
+  --bg-end: #e9eef5; */
+
+  --text-main: #1f2937;
+  --text-heading: #111827;
+
+  --link: #2563eb;
+
+  --border: #cbd5e1;
+
+  --subtle: #6b7280;
+}
+/* Base */
+* {
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease,
+    border-color 0.5s ease;
+}
+
+/* body::before {
+  transition: background 1.8s ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background: linear-gradient(
+    120deg,
+    var(--bg-start),
+    var(--bg-end)
+  );
+
+  z-index: -1;
+
+  transition:
+    background 1.8s ease,
+    opacity 1.8s ease;
+} */
+
+/* Dark background */
+
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  background: linear-gradient(
+    120deg,
+    #0b0f1a,
+    #0d1b2a
+  );
+
+  z-index: -2;
+
+  opacity: 1;
+
+  transition: opacity 0.5s ease;
+}
+
+/* Light background */
+
+body::after {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  background: linear-gradient(
+    120deg,
+    #f5f7fb,
+    #e9eef5
+  );
+
+  z-index: -1;
+
+  opacity: 0;
+
+  transition: opacity 0.5s ease;
+}
+
+body.light-mode::before {
+  opacity: 0;
+}
+
+body.light-mode::after {
+  opacity: 1;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  color: var(--text-main);
+
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, sans-serif;
+
+  background: transparent;
+}
+/* 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background: linear-gradient(
+    120deg,
+    var(--bg-start),
+    var(--bg-end)
+  );
+
+  z-index: -1;
+} */
+
+/* Layout */
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: var(--text-heading);
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-left a {
+  margin-right: 20px;
+}
+
+nav a {
+  color: var(--link);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  color: var(--text-heading);
+  font-weight: 600;
+}
+
+/* Theme button */
+
+#theme-toggle {
+  background: none;
+  border: none;
+  outline: none;
+
+  color: var(--text-main);
+
+  cursor: pointer;
+
+  font-size: 22px;
+  line-height: 1;
+
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+}
+#theme-toggle:hover {
+  opacity: 0.75;
+}
+
+/* Links */
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Bio section */
+
+.bio-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.bio-text {
+  flex: 1;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.bio-image img {
+  width: 180px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Lists */
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: var(--subtle);
+  margin: 0;
+}
+
+/* Misc */
+
+.subtle {
+  color: var(--subtle);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 30px 0 15px 0;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .bio-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .bio-image img {
+    width: 160px;
+  }
+}
