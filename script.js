@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("light-mode");
     toggleButton.textContent = "☾";
 } else {
-  toggleButton.textContent = "☀️";
+  toggleButton.textContent = "☼";
 }
 
   toggleButton.addEventListener("click", () => {
