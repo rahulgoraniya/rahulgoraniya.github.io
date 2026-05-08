@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (localStorage.getItem("theme") === "light") {
     document.body.classList.add("light-mode");
-    toggleButton.textContent = "☾";
+    toggleButton.textContent = "⏾";
 } else {
-  toggleButton.textContent = "☀";
+  toggleButton.textContent = "☀︎";
 }
 
   toggleButton.addEventListener("click", () => {
@@ -46,10 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (document.body.classList.contains("light-mode")) {
       localStorage.setItem("theme", "light");
-      toggleButton.textContent = "☾";
+      toggleButton.textContent = "⏾";
     } else {
       localStorage.setItem("theme", "dark");
-      toggleButton.textContent = "☀";
+      toggleButton.textContent = "☀︎";
     }
 
   });
