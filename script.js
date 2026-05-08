@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (localStorage.getItem("theme") === "light") {
     document.body.classList.add("light-mode");
-    toggleButton.textContent = "☾";
-  } else {
-    toggleButton.textContent = "☼";
-  }
+    toggleButton.textContent = "🌙";
+} else {
+  toggleButton.textContent = "☀";
+}
 
   toggleButton.addEventListener("click", () => {
 
