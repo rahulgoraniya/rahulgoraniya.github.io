@@ -294,7 +294,7 @@ hr {
 
 /* Mobile */
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .bio-container {
     flex-direction: column;
     gap: 25px;
@@ -303,4 +303,4 @@ hr {
   .bio-image img {
     width: 160px;
   }
-}
+} */
