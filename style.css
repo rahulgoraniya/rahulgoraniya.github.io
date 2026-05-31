@@ -251,10 +251,15 @@ a:hover {
   line-height: 1.7;
 }
 
-.bio-image img {
+/* .bio-image img {
   width: 180px;
   height: auto;
   border-radius: 6px;
+} */
+.bio-image img {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Lists */
@@ -304,3 +309,55 @@ hr {
     width: 160px;
   }
 } */
+
+@media (max-width: 700px) {
+  .bio-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .bio-image {
+    text-align: center;
+  }
+
+  .bio-image img {
+    width: 160px;
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .container {
+    margin: 25px auto;
+    padding: 0 16px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav-left a {
+    margin-right: 0;
+  }
+}
