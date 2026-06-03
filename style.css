@@ -239,7 +239,7 @@ a:hover {
 
 /* Bio section */
 
-.bio-container {
+/* .bio-container {
   display: flex;
   align-items: flex-start;
   gap: 50px;
@@ -250,16 +250,26 @@ a:hover {
   font-size: 17px;
   line-height: 1.7;
 }
-
-/* .bio-image img {
-  width: 180px;
-  height: auto;
-  border-radius: 6px;
-} */
 .bio-image img {
   width: 180px;
   max-width: 100%;
   height: auto;
+} */
+
+.bio-container {
+  line-height: 1.7;
+}
+
+.profile-photo {
+  float: right;
+
+  width: 180px;
+  height: auto;
+
+  margin-left: 30px;
+  margin-bottom: 15px;
+
+  border-radius: 6px;
 }
 
 /* Lists */
