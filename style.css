@@ -312,32 +312,35 @@ hr {
 
 @media (max-width: 700px) {
 
+  .container {
+    margin: 20px auto;
+    padding: 0 16px;
+  }
+
   .bio-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .bio-image {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    text-align: center;
+    order: -1; /* puts image before text */
   }
 
   .bio-image img {
-    width: 140px;
+    width: 180px;
+    max-width: 100%;
     height: auto;
-    display: block;
   }
 
-  .bio-text {
-    display: block;
+  h1 {
+    font-size: 32px;
   }
 
-}
-
-.bio-container::after {
-  content: "";
-  display: block;
-  clear: both;
+  h2 {
+    font-size: 22px;
+  }
 }
 /* @media (max-width: 700px) {
   .bio-container {
