@@ -61,7 +61,7 @@ li {
 
 body::before,
 body::after {
-  transition: opacity 0.9s ease;
+  transition: opacity 1.2s ease;
 }
 
 body,
@@ -69,7 +69,8 @@ h1,
 h2,
 p,
 li,
-a {
+a,
+hr {
   transition: none;
 }
 /* body::before {
