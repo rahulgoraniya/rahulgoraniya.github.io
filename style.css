@@ -490,22 +490,25 @@ hr {
 @media (max-width: 700px) {
 
   nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+  }
+
+  #menu-toggle {
+    justify-self: start;
+  }
+
+  #theme-toggle {
+    justify-self: end;
   }
 
   .nav-left {
     display: none;
-
-    /* force menu onto a new line */
-    flex-basis: 100%;
-
+    grid-column: 1 / -1; /* occupy full row below */
     margin-top: 10px;
-    padding-top: 10px;
-
-    border-top: 1px solid var(--border);
   }
 
   .nav-left.show {
