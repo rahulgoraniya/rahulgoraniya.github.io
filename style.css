@@ -392,3 +392,12 @@ hr {
     margin-right: 0;
   }
 }
+
+.nav-left {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
