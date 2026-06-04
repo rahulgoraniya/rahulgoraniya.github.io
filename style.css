@@ -184,10 +184,16 @@ nav {
   margin-right: 20px;
 }
 
-nav a {
+/* nav a {
   color: var(--link);
   text-decoration: none;
   font-size: 18px;
+} */
+
+nav a {
+  color: var(--link);
+  text-decoration: none;
+  font-size: clamp(14px, 3vw, 18px);
 }
 
 nav a:hover {
@@ -400,4 +406,18 @@ hr {
 nav {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 700px) {
+
+  .nav-left a {
+    margin-right: 8px;
+  }
+
+  #theme-toggle {
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+  }
+
 }
