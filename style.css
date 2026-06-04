@@ -38,7 +38,7 @@ body.light-mode {
     background-color 0.5s ease,
     border-color 0.5s ease;
 } */
-body,
+/* body,
 h1,
 h2,
 p,
@@ -51,15 +51,26 @@ hr,
     color 0.5s ease,
     background-color 0.5s ease,
     border-color 0.5s ease;
-}
-/* p,
-li {
-  transform: translateZ(0);
 } */
 
-p,
+
+/* p,
 li {
   will-change: color;
+} */
+
+body::before,
+body::after {
+  transition: opacity 0.5s ease;
+}
+
+body,
+h1,
+h2,
+p,
+li,
+a {
+  transition: none;
 }
 /* body::before {
   transition: background 1.8s ease;
