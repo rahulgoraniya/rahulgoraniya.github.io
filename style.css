@@ -61,7 +61,7 @@ li {
 
 body::before,
 body::after {
-  transition: opacity 1.2s ease;
+  transition: opacity 1.5s ease;
 }
 
 body,
