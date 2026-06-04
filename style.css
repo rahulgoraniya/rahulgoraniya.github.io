@@ -308,17 +308,20 @@ hr {
 }
 
 /* Mobile */
+@media (max-width: 700px) {
 
-/* @media (max-width: 700px) {
-  .bio-container {
-    flex-direction: column;
-    gap: 25px;
+  .profile-photo {
+    float: right;
+
+    width: 120px;   /* adjust as desired */
+    height: auto;
+
+    margin-left: 15px;
+    margin-bottom: 10px;
   }
 
-  .bio-image img {
-    width: 160px;
-  }
-} */
+}
+/* 
 
 @media (max-width: 700px) {
 
@@ -336,7 +339,7 @@ hr {
   .bio-image {
     text-align: center;
     order: -1; /* puts image before text */
-  }
+  /* } */
 
   .bio-image img {
     width: 180px;
@@ -351,22 +354,8 @@ hr {
   h2 {
     font-size: 22px;
   }
-}
-/* @media (max-width: 700px) {
-  .bio-container {
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .bio-image {
-    text-align: center;
-  }
-
-  .bio-image img {
-    width: 160px;
-    max-width: 100%;
-  }
 } */
+
 
 
 @media (max-width: 700px) {
