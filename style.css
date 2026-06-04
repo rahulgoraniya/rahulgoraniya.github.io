@@ -70,8 +70,14 @@ h2,
 p,
 li,
 a,
-hr {
+.footer,
+.subtle {
   transition: none;
+}
+
+nav,
+hr {
+  transition: border-color 1.2s ease;
 }
 /* body::before {
   transition: background 1.8s ease;
