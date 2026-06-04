@@ -54,7 +54,7 @@ hr,
 }
 p,
 li {
-  transition: color 0.5s ease;
+  transform: translateZ(0);
 }
 /* body::before {
   transition: background 1.8s ease;
