@@ -199,6 +199,23 @@ nav a.active {
   font-weight: 600;
 }
 
+#menu-toggle {
+  display: none;
+
+  background: none;
+  border: none;
+  outline: none;
+
+  color: var(--text-main);
+
+  cursor: pointer;
+
+  font-size: 24px;
+  line-height: 1;
+
+  padding: 0;
+}
+
 /* Theme button */
 
 #theme-toggle {
@@ -496,6 +513,7 @@ hr {
   }
 
   #menu-toggle {
+    display: block;
     margin-right: auto;
   }
 
@@ -505,10 +523,13 @@ hr {
 
   .nav-left {
     display: none;
+
     width: 100%;
-    order: 3;   /* force dropdown below both buttons */
+    order: 3;
+
     margin-top: 10px;
     padding-top: 10px;
+
     border-top: 1px solid var(--border);
   }
 
