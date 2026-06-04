@@ -392,3 +392,52 @@ hr {
     margin-right: 0;
   }
 }
+
+
+@media (max-width: 700px) {
+
+  nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #menu-toggle {
+    display: block;
+
+    background: none;
+    border: none;
+
+    color: var(--text-main);
+
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .nav-left {
+    display: none;
+
+    position: absolute;
+    top: 45px;
+    left: 0;
+
+    width: 200px;
+
+    background: inherit;
+
+    padding: 10px 0;
+
+    border: 1px solid var(--border);
+  }
+
+  .nav-left.show {
+    display: block;
+  }
+
+  .nav-left a {
+    display: block;
+    padding: 8px 15px;
+    margin: 0;
+  }
+}
