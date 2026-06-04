@@ -398,7 +398,7 @@ hr {
 }
 
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
 
   nav {
     position: relative;
@@ -422,13 +422,13 @@ hr {
   .nav-left {
     display: none;
 
-    position: absolute;
+    /* position: absolute;
     top: 45px;
     left: 0;
 
-    width: 200px;
+    width: 200px; */
 
-    background: inherit;
+    /* background: inherit;
 
     padding: 10px 0;
 
@@ -442,6 +442,46 @@ hr {
   .nav-left a {
     display: block;
     padding: 8px 15px;
+    margin: 0;
+  }
+} */ 
+@media (max-width: 700px) {
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #menu-toggle {
+    display: block;
+
+    background: none;
+    border: none;
+
+    color: var(--text-main);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .nav-left {
+    display: none;
+
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+
+    border-top: 1px solid var(--border);
+  }
+
+  .nav-left.show {
+    display: block;
+  }
+
+  .nav-left a {
+    display: block;
+    padding: 8px 0;
     margin: 0;
   }
 }
